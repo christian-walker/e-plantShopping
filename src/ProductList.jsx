@@ -260,12 +260,12 @@ function ProductList({ onHomeClick }) {
 
 
     const handleAddToCart = (product) => {
-        console.log(product);
+        //console.log(product);
         dispatch(addItem(product));
         
         setAddedToCart({...addedToCart, [product.name]: true});
         
-        console.log(addedToCart);
+        //console.log(addedToCart);
     };
 
     return (
